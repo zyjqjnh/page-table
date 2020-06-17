@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>page-table demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./page-table.umd.js"></script>
+
+<link rel="stylesheet" href="./page-table.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: page-table
+  }
+}).$mount('#app')
+</script>
